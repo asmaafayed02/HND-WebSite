@@ -1,0 +1,25 @@
+.breif-commit {
+    padding: 60px 0px
+}
+
+.breif-commit .commit-header {
+    color: #011638;
+    text-transform: uppercase ;
+    padding: 10px 0px
+}
+
+.breif-commit .commit-card {
+    border: 1px solid #E6E8E6;
+    padding: 35px 0px;
+    /* box-shadow: 4px 4px 4px 4px rgb(180, 178, 178); */
+}
+
+.breif-commit .commit-card h3 {
+    padding-bottom: 10px ;
+    text-transform: uppercase ;
+}
+
+.breif-commit .commit-link {
+    text-align: center;
+    padding-top: 10px;
+}

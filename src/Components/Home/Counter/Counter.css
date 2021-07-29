@@ -1,0 +1,28 @@
+.counter {
+  margin-top: 40px;
+  background-color: #fffbfa; 
+}
+
+.counter-parent .parent {
+  padding: 20px;
+}
+
+.counter-parent .parent .commit-name h4 {
+  color: #011638;
+}
+
+.content-of-icons {
+  margin-right: 20px;
+}
+
+
+/******************** Start Style For Any Icons ***********************/
+.counter-parent .parent .commit-Icon i {
+  color: #01a4f1; 
+  transition: all 0.5 ease-in-out;
+  -webkit-transition: all 0.5 ease-in-out;
+  -moz-transition: all 0.2 ease-in-out;
+}
+/******************** End Style For Any Icons **************************/
+
+

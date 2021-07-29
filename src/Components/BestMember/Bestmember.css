@@ -1,0 +1,69 @@
+.best-header h2{
+    color: #01a4f1;
+    text-align: center;
+    margin: 50px auto;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 2px gray;
+}
+
+.best-parent{
+    text-align: center;
+}
+
+.best-parent .best-image img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.best-parent .best-information {
+    background-color: #364156;
+    color : white ;
+    width: 100%;
+    position: relative;
+    padding: 5px ;
+    top : -152px ;
+    z-index: 1;
+}
+
+.best-parent:hover .best-information {
+    top: 0px ;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transform-origin: top;
+    animation: Dropping 1.5s ease-in-out;
+    -webkit-animation: Dropping 1.5s ease-in-out;
+    -moz-animation: Dropping 1.5s ease-in-out;
+}
+
+@keyframes Dropping {
+    0% {
+        transform: rotateX(-50deg);
+    }
+
+    20% {
+        transform: rotateX(50deg);
+    }
+
+    40% {
+        transform: rotateX(-30deg);
+    }
+
+    60% {
+        transform: rotateX(30deg);
+    }
+
+    80% {
+        transform: rotateX(-30deg);
+    }
+
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+.best-parent .best-information h3 {
+    display: inline;
+}
