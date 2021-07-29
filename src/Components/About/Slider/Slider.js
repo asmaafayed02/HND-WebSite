@@ -15,6 +15,7 @@ class HomeSlider extends Component {
                     <Carousel.Caption>
                         <h3>MSP Tech Club</h3>
                         <p></p>
+                        <br />
                     </Carousel.Caption>
                 </Carousel.Item> { /* End First Slises  */ }
 
@@ -28,6 +29,7 @@ class HomeSlider extends Component {
                     <Carousel.Caption>
                         <h3>MSP'21</h3>
                         <p>First Event 'Blind-Area'</p>
+                        <br />
                     </Carousel.Caption>
                 </Carousel.Item> { /* End Second Slises 'Menu' */ }
 
@@ -41,6 +43,7 @@ class HomeSlider extends Component {
                     <Carousel.Caption>
                         <h3>MSP'20 Closing</h3>
                         <p>Our Closing in first season</p>
+                        <br />
                     </Carousel.Caption>
                 </Carousel.Item> { /* End Third Slises */ }
             </Carousel>

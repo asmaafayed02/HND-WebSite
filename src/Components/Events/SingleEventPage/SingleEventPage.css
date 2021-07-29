@@ -3,18 +3,33 @@
        background-image: url('./eventImage.jpeg');
        background-repeat: no-repeat;
        background-size: cover; 
-       height: 400px;
+       height: 500px;
        width: 100%;   
 }
 
-.icons{margin-top: 15px;
+.icons {
+       margin-top: 15px;
        font-size: 25px;
-        margin-bottom: 20px;
-        font-weight: 20px;}
+       margin-bottom: 20px;
+       font-weight: 20px;
+}
 
+p span {
+       font-weight: bold;
+       color: #01A4F1 ;
+}
+.price-para ,
+.date-para  {
+       color: #01A4F1 ;
+       font-weight: bold;
+       font-size: 20px;
+}
+
+p ul li {
+       text-align: left;
+}
 button {
        padding: 15px;
-       color: white;
        background-color: #01A4F1;
        border: none;
        border-radius: 3px;
@@ -22,5 +37,10 @@ button {
        font-weight: 30px;
        margin-bottom: 20px;
 }
-         
+      
+button a,
+button a:hover {
+       color: white;
+       text-decoration: none;
+}
 
