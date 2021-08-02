@@ -3,7 +3,7 @@ import "./Header.css";
 import logo from "./logo.png";
 import { Link } from "react-router-dom";
 
-class Header extends React.Component {
+class Header extends Component {
   
   // changing the navbar back ground color when scrolling
   componentDidMount() {
@@ -24,16 +24,16 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <nav id="main-navbar" className="navbar navbar-expand-lg navbar-dark navbar-trans">
-          <Link to="/">
-            <a className="navbar-brand" href="#">
+        <nav id="main-navbar" className="navbar navbar-expand-lg navbar-dark navbar-trans ">
+          <div className='container-fluid '>
+          <Link to="/" className="navbar-brand">
               <img
                 src={logo}
                 alt="MSP logo"
                 className="img-fluid"
                 width="150px"
               />
-            </a>
+            
           </Link>
           <button
             className="navbar-toggler"
@@ -46,53 +46,38 @@ class Header extends React.Component {
           >
             <span className="navbar-toggler-icon" />
           </button>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mr-auto">
+          <div className="justify-content-end navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav">
               <li className="nav-item active">
-                <Link to="/">
-                  <a className="nav-link" href="#">
+                <Link to="/" className="nav-link">
                     Home <span className="sr-only">(current)</span>
-                  </a>
+                  
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/about">
-                  <a className="nav-link" href="#">
+                <Link to="/about" className="nav-link">
                     About
-                  </a>
+                  
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/events">
-                  <a className="nav-link" href="#">
+                <Link to="/events" className="nav-link">
                     Events
-                  </a>
+                  
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/university-email">
-                  <a className="nav-link" href="#">
-                    University Email
-                  </a>
+                <Link to="/best-members" className="nav-link">
+                    Best Members
+                  
                 </Link>
               </li>
             </ul>
             {/* Search field and buttom in case we needed it  */}
-            <form className="form-inline my-2 my-lg-0">
-              <input
-                className="form-control mr-sm-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button
-                className="btn btn-outline-success my-2 my-sm-0"
-                type="submit"
-              >
-                Search
-              </button>
-            </form>
+           
           </div>
+          </div>
+        
         </nav>
       </div>
     );

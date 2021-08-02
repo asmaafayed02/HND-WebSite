@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="Structure container">
       <h2>Our Structure</h2>
-      <img src={StructureImage} alt="Our Structure in this Season" title="Structure" />
+      <img className='structure-img' src={StructureImage} alt="Our Structure in this Season" title="Structure" />
     </div>
   );
 }

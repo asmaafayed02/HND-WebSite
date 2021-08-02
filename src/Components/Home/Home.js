@@ -4,6 +4,7 @@ import HomeScript from "./HomeScript/HomeScript"
 import Counter from './Counter/Counter'
 import EventsSection from "./EventsSection/EventsSection";
 import BreifCommit from "./About/Committ/BreifCommitee";
+import BestMemberCard from "./BestMembers/BestMembers";
 
 class Home extends Component {
   
@@ -15,6 +16,7 @@ class Home extends Component {
           <Counter />
           <EventsSection />
           <BreifCommit />
+          <BestMemberCard/>
 
       </div>
     );
