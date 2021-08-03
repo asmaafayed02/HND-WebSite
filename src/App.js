@@ -18,7 +18,6 @@ function App() {
         <Route path='/about'><About/></Route>
         <Route path='/events'><EventsPage/></Route>
         <Route path='/best-members'><Bestmember/></Route>
-        
         <Footer/> 
       </BrowserRouter>
     

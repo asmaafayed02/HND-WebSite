@@ -19,6 +19,7 @@ class UpComingEvents extends Component {
                             <span className="events__icon"><i className='fas fa-map-marker-alt'></i></span>
                             {eventItem.event_location.the_location}
                         </p>
+                        <a href="../SingleEventPage/SingleEventPage.js" target="_blank">Learn More</a>
                     </div>
                 </div>
             );

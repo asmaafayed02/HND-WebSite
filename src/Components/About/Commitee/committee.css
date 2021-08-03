@@ -32,9 +32,10 @@
     padding: 30px auto;
 }
 
-.commit-parent .parent .commit-name h2 {
+.commit-parent .parent .commit-name h3 {
     text-transform: uppercase;
-    padding: 15px ;
+    padding-top: 15px ;
+    color: #01a4f1 ;
 }
 
 .but{
