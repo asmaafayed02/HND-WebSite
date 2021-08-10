@@ -75,7 +75,7 @@ class BreifCommit extends Component {
 
           {/******* Start Link for learn more ******/}
           <div className='commit-link'>
-            <a href='' >learn more about our Committee</a>
+            <a href='../../About/AllCommitee.js' target="_blank">learn more about our Committee</a>
           </div>
           {/******* End Link for learn more ******/}
       </div>

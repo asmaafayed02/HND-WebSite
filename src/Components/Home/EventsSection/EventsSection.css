@@ -2,10 +2,11 @@
     background-color: #FFFBFA;
 }
 .events-header{
+    color: #01a4f1;
     text-align: center;
-    margin: 30px;
-    color: #011638;
-    margin-top: 60px;
+    margin: 65px auto;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 2px gray;
 }
 .events-card{
     height: 300px;
