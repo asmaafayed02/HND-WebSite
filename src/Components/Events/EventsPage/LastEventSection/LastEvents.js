@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../EventsPage.css'
 
 class LastEvents extends Component {
@@ -20,7 +21,7 @@ class LastEvents extends Component {
                       <span className="events__icon"><i className= 'fas fa-map-marker-alt'></i></span> 
                         {eventItem.event_location.the_location}
                     </p>
-                    <a href="../SingleEventPage/SingleEventPage.js" target="_blank">Learn More</a>
+                    <Link to="/single-event">Learn More</Link>
                     </div>
                 </div>
                 )
